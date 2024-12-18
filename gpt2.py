@@ -95,5 +95,5 @@ trainer = Trainer(model=model,
                  # eval_dataset=chunked_ds,
                  data_collator = data_collator)
 
-# trainer.train(resume_from_checkpoint=True)
-trainer.train(resume_from_checkpoint=False)
+trainer.train(resume_from_checkpoint=True)
+#trainer.train(resume_from_checkpoint=False)
