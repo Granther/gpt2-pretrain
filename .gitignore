@@ -1,3 +1,5 @@
 bookcorpus
 gpt-2-warm-up
 .venv
+.venv
+__pycache__
